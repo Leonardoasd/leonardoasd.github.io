@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario freeCodeCamp</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 id="title"> Formulario de encuesta FreeCodeCamp</h1>
+    <p id="description">En este formulario de prueba, pondré en practica todo lo 
+        aprendido durante el curso.</p>
+    <form id="survey-form" required>
+      <fieldset class="per-fieldset">
+        <label id="name-label" class="nombre"><div class="letras">Nombre</div> <input class="firts-fieldset" type="text" id="name" placeholder="Ingresa tu nombre" required></label><br>
+        <label id="email-label" class="correo"><div class="letras">Correo electrónico</div><input class="firts-fieldset" placeholder="Ingresa tu correo" type="email" id="email" required></label><br>
+        <label id="number-label" class="age"><div class="letras">Edad (opcional)</div><input class="firts-fieldset" type="number" id="number" min="13" max="200" placeholder="edad" ></label><br>
+        <label for="dropdown" class="estado"><div class="letras">Estado civil</div>
+         <select id="dropdown" class="firts-fieldset">
+          <option>soltero</option>
+          <option>casado</option>
+          <option>viudo</option>
+          <option>otros</option>
+         </select>
+         </label><br>
+      </fieldset>
+      <fieldset class="demasfieldsets">
+          <label>Recomendarias freeCodeCamp a un amigo?</label><br>
+          <label><input type="radio" name="feel" value="feel">Sí </label><br>
+          <label><input type="radio" name="feel" value="feel">No </label><br>
+          <label><input type="radio" name="feel" value="feel">Talvez </label><br>
+      </fieldset>
+      <fieldset class="demasfieldsets">
+        <label>Cual es su funcion favorita de freeCodeCamp?</label><br>
+        <label>
+            <select>
+                <option>Desafios</option>
+                <option>Proyectos</option>
+                <option>Comunidad</option>
+                <option>Fuente abierta</option>
+                <option>Que es GRATIS!!!</option>
+            </select>
+        </label>
+      </fieldset>
+      <fieldset class="demasfieldsets">
+        <label>¿Que te gustaría ver mejorado? (marque todo lo que corresponda)</label><br>
+        <label><input type="checkbox" value="casilla">Proyectos fron-end</label><br>
+        <label><input type="checkbox" value="casilla">Proyectos Back-end</label><br>
+        <label><input type="checkbox" value="casilla">Visualizacion de datos</label><br>
+        <label><input type="checkbox" value="casilla">Desafios</label><br>
+        <label><input type="checkbox" value="casilla">Comunidad de código abierto</label><br>
+        <label><input type="checkbox" value="casilla">Salas de ayuda de gitter</label><br>
+        <label><input type="checkbox" value="casilla">Videos</label><br>
+        <label><input type="checkbox" value="casilla">Encuentros de la ciudad</label><br>
+        <label><input type="checkbox" value="casilla">Wiki</label><br>
+        <label><input type="checkbox" value="casilla">Foro</label><br>
+        <label><input type="checkbox" value="casilla">Cursos adicionales</label><br>
+      </fieldset>
+      <fieldset>
+        <div class="ultimofieldset">
+        <label>¿Algún comentario o sugerencia?</label><br>
+        <textarea placeholder="Escribe aquí un comentario..."></textarea>
+      </fieldset>
+      <div class="boton2"><input type="submit" id="submit" name="Enviar" class="botonenviar"></div>
+    </form>
+    
+</body>
+</html>

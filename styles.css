@@ -1,0 +1,65 @@
+h1{
+    text-align: center;
+    font-family: Tahoma;
+}
+p{
+    text-align: center;
+    font-family: Tahoma;
+}
+body{
+    background-color: rgb(84, 109, 178);
+    color: white;
+}
+form{
+    margin: 0 auto;
+    width: 50vw;
+    background-color: rgb(28, 32, 66);
+}
+.botonenviar{
+    background-color:rgb(46, 147, 58);
+    width: 35vw;
+    height: 2.5vw;
+    font-family: Tahoma;
+    font-size: 70%;
+    color: white;
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    border-radius: 5px;
+    border-color: rgb(46, 147, 58);
+
+}
+.boton2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nombre, .correo, .age, .estado{
+ display: block;
+ position: relative;
+ left: 2.5%;
+}
+
+.firts-fieldset {
+   width: 90%;
+   border-radius: 3px;
+}
+textarea{
+    width: 93%;
+    height: 10vw;
+}
+.demasfieldsets{
+    position: relative;
+    left: 2.5%;
+    border: none;
+}
+.ultimofieldset{
+    position: relative;
+    left: 2.5%;
+}
+fieldset{
+    border: none;
+}
+select{
+    width: 93%;
+}
